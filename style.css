@@ -29,6 +29,7 @@ h3 {
 
 img {
     border-radius: 50%;
+    width: fit-content;
 }
 
 p {
