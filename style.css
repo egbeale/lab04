@@ -1,64 +1,61 @@
 body {
-    background-color: #7FA0B3;
+    background-color: #254952;
 }
 
 header {
-    border: 40px ridge #B8A533;
+    border: 70px ridge #6db895;
     padding: 30px;
-    margin: 30px;
-    padding-right: 20px;
+    margin: 50px;
     border-radius: 45% 55% 55% 45% / 89% 87% 13% 11%;
-    background-color: #8A9641;
 }
 
 h1 {
-    color: #466C80;
+    color: #9b9c4b;
     text-align: center;
-    font-size: 350%;
+    font-size: 450%;
     font-stretch:wider;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: monospace;
 }
 
 h2 {
     text-align: center;
-    font-family: serif;
-    color: #D0F0E9;
+    font-family: monospace;
+    color: #9ab69e;
 }
 
 img {
     border-radius: 50%;
-    width: 400px;
-    margin:auto;
-    border: 30px solid sienna;
+    width: 370px;
+    border: 40px ridge #b19a33;
 }
 
 p {
     color: #D0F0E9;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: larger;
+    font-family: monospace;
+    font-size: x-large;
+    border: 35px solid #529777;
+    border-radius: 20%;
+    background-color: #529777;
+    margin: 50px;
+    align-items: center;
+    text-align: center;
 }
 
 #factlist {
-    border: 50px solid sienna;
-    padding: 15px;
-    border-radius: 50%;
-    background-color: sienna;
-    justify-content: baseline;
+    border: 40px ridge #b19a33;
+    padding: 45px;
+    border-radius: 60%;
 }
 
 h3 {
     text-align: center;
-    font-family: 'Times New Roman', Times, serif  ;
+    font-family: monospace;
     font-size: x-large;
+    color:#8fd1cc;
 }
 
 ul {
-    color: #112040;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-li {
-    color: #dad378;
+    color: #8fd1cc;
     line-height: 1.5;
 }
 
@@ -66,4 +63,16 @@ li {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+h3 {
+    font-size: xx-large;
+}
+
+nav {
+    margin: 40px;
+    color: rgb(189, 181, 75);
+    border: 20px solid rgb(175, 177, 86);
+    padding: 10px;
+    font-family: monospace;
 }
