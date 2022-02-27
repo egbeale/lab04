@@ -9,6 +9,10 @@ header {
     border-radius: 45% 55% 55% 45% / 89% 87% 13% 11%;
 }
 
+#hello {
+    font-size: xx-large;
+}
+
 h1 {
     color: #9b9c4b;
     text-align: center;
