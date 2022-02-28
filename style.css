@@ -23,7 +23,6 @@ h1 {
     font-size: 60pt;
     font-weight: 900;
     letter-spacing: 3px;
-    font-stretch:wider;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-shadow: -5px 5px salmon;
 
@@ -36,15 +35,41 @@ h2 {
     font-size: 20pt;
     letter-spacing: 3px;
     font-weight: 800;
-    margin: 90px;
     text-shadow: -1px 2px rgb(152, 248, 243),
                 1px -2px rgb(241, 162, 144);
 }
 
-#sadeyes {
-    border-radius: 50%;
-    width: 370px;
-    border: 40px outset #5fb38c;
+#threesections {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+#imgsadeyes {
+    width: 400px;
+    border: 20px solid #42a0a0;
+    outline: 20px solid rgb(226, 162, 155);
+    display: block;
+    border-radius: 4px;
+}
+
+.blanchedivs {
+    margin: 30px;
+    margin-top: 20px;
+}
+
+.textlist {
+    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30pt;
+    letter-spacing: 7px;
+    font-weight: 800;
+    text-shadow: -1px 2px rgb(110, 148, 146),
+                1px -2px rgb(153, 119, 111);
+    justify-content:center;
+    margin-right: 20px;
+    color: rgb(79, 90, 104);
 }
 
 #factlist {
@@ -63,6 +88,7 @@ h3 {
 ul {
     color: #8fd1cc;
     line-height: 1.5;
+    list-style-type: circle;
 }
 
 #columns {
@@ -87,7 +113,6 @@ p {
     background-color: #529777;
     margin: 50px;
     align-items: center;
-    text-align: center;
 }
 
 h3 {
